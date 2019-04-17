@@ -1,13 +1,44 @@
-1-Salve o arquivo trabalho1.txt com todas as saus respostas, seu nome e matricula
-
-2-Use o comando para listas todos os arquivos de sua pasta principal e direcione o resultado 
-para o arquivo final.txt
-
-3-Certifique-se que esteja dentro de seu repositorio criado:
-git add *
-git commit -m " trabalho seu nome"
-git push
+Aluno: nichoalas monteiro  matricula:(0050011999)
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2019   Turno: Noite            Trabalho (valo 1,5 pontos)
+--------------------------------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
 
 
-4-Chame o professor, e entre no link abaixo:
-https://goo.gl/forms/tGe5f4LoLa0DrVvE3
+0 - Após o comando clone, vá para a pasta seunome.labso.meutrabalho (esta será a pasta principal da prova)
+
+1. Crie 3 pastas com nomes de pasta1, pasta2 e pasta3
+mkdir pasta1
+mkdir pasta2
+mkdir pasta3
+
+2. Liste todo o conteúdo da pasta home e direcione a saída para um arquivo chamado access.log
+ls ~>> access.log
+
+3. Qual o comando para mostrar as últimas 4 linhas do arquivo access.log?
+tail -n 4 access.log 
+
+
+4. Usando apenas uma linha de comando, crie 3 arquivos em branco que comecem com seu nome e termina com 
+uma sequencia 1, 2 e 3. Ex.: alex1.txt, alex2.txt, alex3.txt. Que comando você utilizou?
+touch nicholas{1,2,3}.txt
+
+
+
+5. Copie os 3 arquivos criados anteriormente para a pasta2
+cp nicholas1.txt pasta2
+cp nicholas2.txt pasta2
+cp nicholas3.txt pasta2
+
+6. A partir de sua pasta original(item 0), usando o comando find do linux, 
+diga quantos diretórios existem cujo nome começa com "pasta"? 
+Resposta1 (comando linux usado): find ./nicholas.labso.meutrabalho/ -type d -name pasta*
+Resposta2 (numero de diretórios encontrados) : 3
+
+7.listar o conteúdo de seu diretório e direcionar a saída para o primeiro arquivo do item 4
+ls >> pasta2/nicholas1.txt
+
+
+8.Mostre o conteudo do arquivo ultimocomando.txt e siga as instruções dele
+cat ultimocomando.txt
