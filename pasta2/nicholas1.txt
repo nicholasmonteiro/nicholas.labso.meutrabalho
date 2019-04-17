@@ -1,0 +1,13 @@
+access.log
+nicholas1.txt
+nicholas2.txt
+nicholas3.txt
+pasta1
+pasta2
+pasta3
+rafael1.txt
+rafael2.txt
+rafael3.txt
+README.md
+trabalho1.2019
+ultimocomando.txt
